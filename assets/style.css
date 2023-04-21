@@ -9,11 +9,18 @@ body{
     font-family: 'Times New Roman', Times, serif;
     background-color: black;
 }
-h2,.white{
-    color:white;
+/* made it to where I do not have to repeat 
+myself with the same line of code, and made 
+it to where all of the following's text are 
+white. specifically speaking the h1, h2, and p 
+*/
+h1,h2,p{
+    color: white;
 }
+/* I wanted the a section to be a different 
+color so I took it out of the h1,h2, and p*/
 a{
-    color:gray;
+    color: #7A7C80;
     text-decoration: none;
 }
 
