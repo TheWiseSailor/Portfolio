@@ -27,6 +27,8 @@ h1,h2,p{
 /* I wanted the a section to be a different
 color so I took it out of the h1,h2, and p*/
 
+
+
 a{
     color: #7A7C80;
     text-decoration: none;
