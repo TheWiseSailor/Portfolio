@@ -83,7 +83,7 @@ to where I could make it show on the
 left side of the page so that once 
 the page is being thinned out on 
 inspection or accessed on any 
-mobile device, it will convifgure 
+mobile device, it will configure 
 to that device without any ugly mess ups */
 
 .section-1 {
@@ -112,6 +112,9 @@ to that device without any ugly mess ups */
 .section-2 {
   padding-top: 10vh;
   width: 70%;
+
+  display: flex;
+  justify-content: space-between;
 }
 
 .section-2 h2 {
