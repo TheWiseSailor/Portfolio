@@ -10,13 +10,24 @@
     <title> Joseph Rudasill's Portfolio</title>
   </head>
   <body>
-   
+<!--started adding a simple nav bar since it is required for the read me challenge-->
+    <nav>
+        <ul>
+          <li><a href="#About">About Me</a></li>
+          <li><a href="#My Experience">My experiences</a></li>
+          <li><a href="#My Skills">Skills</a></li>
+          <li><a href="#Projects">Projects</a></li>
+          <li><a href="#Contacts">Contacts</a></li>
+        </ul>
+      </nav>
        
     <!-- making a grid to which I can have everything placed all to my liking-->
     <div class="grid-1">
         <div class="section-1">
             <!--This is where my profile picture is going to go... Hopefully-->
-            <img src="assets/images/Joseph-Rudasill.jpg"height="400" width="400">
+
+            <img src="assets/images/Joseph-Rudasill.jpg" alt="a picture of me" height="400" width="400" class="img-1">
+
             <h2>Joseph Rudasill</h2>
             <p> Shelby, NC</p>
             <!--This is where all the logo and links to the logos are going to be,
@@ -32,15 +43,25 @@
             4: The lists of previous projects I have made
             5: A way to contact me if intrested-->
         <div class="section-2">
-            <h2> About</h2>
+          <!--started adding sections to each of them for the nav bar,
+             since the readme file on the challenge requires us to have 
+             a nav bar to where we can find certain topics or things on a webpage-->
+          <section id="About">
+            <h2> About Me</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae ad voluptatum dolores pariatur aperiam accusantium libero delectus blanditiis commodi aliquam quos itaque necessitatibus perspiciatis neque, impedit sit inventore deleniti quisquam.</p>
-            <h2> My Experience</h2>
+          </section>
+          <section id="My Experience">
+          <h2> My Experience</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium dolore voluptate quisquam? Deleniti suscipit, id ex ipsam sit culpa ratione, nam minima ducimus blanditiis expedita vero repudiandae est aut sunt.</p>
+          </section>
+          <section id="My Skills">
             <h2>Skills</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit at officiis, voluptates debitis porro quo autem repellendus dolores ea dolorum laboriosam nulla distinctio natus eum, amet assumenda similique. Cum, rerum.</p>
+          </section>
+          <section id="Projects">
             <h2>Projects</h2>
         <ul>
-            <a href="">Project 1</a>
+            <a href="https://thewisesailor.github.io/Horiseon/" alt="Horiseon Project">Horiseon</a>
         </ul>
         <ul>
             <a href="">Project 2</a>
@@ -51,11 +72,13 @@
         <ul>
             <a href="">Project 4</a>
         </ul>
-            
+      </section>
+      <section id="Contacts">
         <h2>
             Contacts
         </h2>
         <p>Rudasilljay@gmail.com</p>
+      </section>
         </div>
     </div>
   </body>
