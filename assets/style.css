@@ -132,6 +132,12 @@ to that device without any ugly mess ups */
   padding-left: 0;
   width: 100px;
 }
+.column {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-right: 50px;
+  column-gap: 60px;
+}
 
 /* animations / utilities */
 .section-2 a:hover {
