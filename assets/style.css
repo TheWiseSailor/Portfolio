@@ -143,10 +143,11 @@ want to use it anymore*/
     rgb(0, 0, 255),
     rgb(127, 0, 255),
     rgb(255, 0, 255),
-    rgb(255, 0, 127)
+    rgb(255, 0, 127),
+    rgb(255, 0, 0)
   );
   background-size: 1800% 100%;
-  animation: pulse 5s ease-in-out infinite;
+  animation: pulse 10s ease-in-out infinite;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
