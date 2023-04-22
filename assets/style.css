@@ -2,15 +2,13 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
-* {
-}
 
 body {
   margin: 0;
   padding: 0;
   font-family: "Times New Roman", Times, serif;
   background-color: #101214;
-  color: #7a7c80;
+  color: white;
 }
 /* made it to where I do not have to repeat
 myself with the same line of code, and made
