@@ -43,6 +43,7 @@ nav {
   min-height: 40px;
   background-color: #333;
   display: flex;
+  flex-wrap: wrap;
   justify-content: right;
 }
 
@@ -93,7 +94,7 @@ mobile device, it will configure
 to that device without any ugly mess ups */
 /* BOTH SECTION 1/2 SECTIONS*/
 .section-1 {
-  padding-top: 200px;
+  padding-top: 400px;
   padding-bottom: 200px;
   text-align: center;
 }
@@ -193,10 +194,6 @@ want to use it anymore*/
 /* animations / utilities */
 .section-2 a:hover {
   font-size: 1.3rem;
-
-  cursor: pointer;
-  transition: 0.2s;
-  width: 300px;
 }
 
 .section-1 a:hover {
@@ -221,6 +218,7 @@ want to use it anymore*/
   position: absolute;
   margin-top: 450px;
   margin-left: 200px;
+  padding-top: 15px;
 }
 /* media queres */
 /* took me a little time on this as well*/
