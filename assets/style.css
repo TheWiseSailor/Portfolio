@@ -101,12 +101,59 @@ to that device without any ugly mess ups */
 .section-1 h2 {
   font-size: 1.7rem;
   margin-bottom: 10px;
+  /*testing out a light bar feature I saw on stack over flow*/
+
+  @keyframes pulse {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
 }
 
 .section-1 a {
   font-size: 1.5rem;
-  padding: 10px;
+  /* padding: 10px; */
+  padding-top: 29px;
+
+  /* found out about rgb lightings I looked on stack 
+over flow and found out about different color themes, 
+to which I wanted something that smoothly pulsated like 
+an rgb string like u hang up in your room. I wanted to 
+apply it to this because i thought it looked cool.
+I might comment it out later if I decide if I dont 
+want to use it anymore*/
+  height: 100px;
+  width: 100%;
+  background: linear-gradient(
+    to right,
+    rgb(255, 0, 0),
+    rgb(255, 127, 0),
+    rgb(255, 255, 0),
+    rgb(127, 255, 0),
+    rgb(0, 255, 0),
+    rgb(0, 255, 127),
+    rgb(0, 255, 255),
+    rgb(0, 127, 255),
+    rgb(0, 0, 255),
+    rgb(127, 0, 255),
+    rgb(255, 0, 255),
+    rgb(255, 0, 127),
+    rgb(255, 0, 0)
+  );
+  background-size: 1800% 100%;
+  animation: pulse 20s ease-in-out infinite;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
+
 /* section 2 */
 
 .section-2 {
@@ -114,6 +161,17 @@ to that device without any ugly mess ups */
   width: 70%;
 }
 
+@keyframes pulse {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 .section-2 h2 {
   font-size: 1.7rem;
   margin-bottom: 10px;
@@ -131,13 +189,6 @@ to that device without any ugly mess ups */
   font-size: 1.2rem;
   padding-left: 0;
   width: 100px;
-}
-.column {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  position: absolute;
-  column-gap: 60px;
-  padding-bottom: 100px;
 }
 
 /* animations / utilities */
@@ -158,7 +209,14 @@ to that device without any ugly mess ups */
   position: relative;
   padding-left: 10px;
 }
-
+/*column section*/
+.column {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  position: absolute;
+  column-gap: 60px;
+  padding-bottom: 100px;
+}
 /* media queres */
 /* took me a little time on this as well*/
 
