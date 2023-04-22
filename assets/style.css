@@ -27,6 +27,10 @@ color so I took it out of the h1,h2, and p*/
 /* making an image class to where i can make the border radius of my profile picture a circle*/
 .img-1 {
   border-radius: 100%;
+  box-shadow: 0 0 10px 10px;
+  background: linear-gradient(to right, #fff);
+  background-size: 1800% 100%;
+  animation: pulse 10s ease-in-out infinite;
 }
 a {
   color: #7a7c80;
