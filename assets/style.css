@@ -209,7 +209,6 @@ want to use it anymore*/
 .column {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  position: absolute;
   column-gap: 10px;
 }
 .column-2 {
