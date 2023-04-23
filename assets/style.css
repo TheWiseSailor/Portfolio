@@ -84,6 +84,17 @@ nav ul li a:hover {
     margin: 10px 0;
   }
 }
+.title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+}
 /* section 1 */
 /* I had to spend a little time on this 
 to where I could make it show on the 
@@ -205,23 +216,40 @@ want to use it anymore*/
   position: relative;
   padding-left: 10px;
 }
-/*column section*/
-.column {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  column-gap: 10px;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
-.column-2 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  position: absolute;
-  margin-top: 450px;
-  margin-left: 200px;
-  padding-top: 15px;
-}
-/* media queres */
-/* took me a little time on this as well*/
 
+.column {
+  flex-basis: calc(33.33% - 2rem);
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+
+.image-container:hover img {
+  opacity: 0.5;
+}
+
+.image-container:hover .image-title {
+  opacity: 1;
+}
 @media (max-width: 780px) {
   .grid-1 {
     grid-template-columns: 1fr;
