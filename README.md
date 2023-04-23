@@ -20,11 +20,11 @@ WHEN I resize the page or view the site on various screens and devices<br>
 THEN I am presented with a responsive layout that adapts to my viewport<br>
 
 # Features 
-Navigation:<br> The navigation bar at the top of the page includes links to sections about me, my work, and how to contact me. Clicking on any link in the navigation takes you to the corresponding section of the page.<br>
-About Me: The "About Me" section includes a recent photo or avatar, as well as a brief introduction to me and my background.<br>
-My Work: The "My Work" section displays titled images of my web applications. The first application's image is larger in size than the others.<br>
-Application Deployment: Clicking on any of the application images takes you to the deployed application.<br>
-Contact Me: The "Contact Me" section includes a form for potential employers to contact me.
+**Navigation**:<br> The navigation bar at the top of the page includes links to sections about me, my work, and how to contact me. Clicking on any link in the navigation takes you to the corresponding section of the page.<br>
+**About Me**: <br> The "About Me" section includes a recent photo or avatar, as well as a brief introduction to me and my background.<br>
+**My Work**: <br>The "My Work" section displays titled images of my web applications. The first application's image is larger in size than the others.<br>
+**Application Deployment**:<br> Clicking on any of the application images takes you to the deployed application.<br>
+**Contact Me**: <br>The "Contact Me" section includes a form for potential employers to contact me.
 
 # Technologies Used
 HTML
