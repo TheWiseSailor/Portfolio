@@ -216,20 +216,35 @@ want to use it anymore*/
   position: relative;
   padding-left: 10px;
 }
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 2rem;
-}
-
+/*
+/*column section*/
 .column {
-  flex-basis: calc(33.33% - 2rem);
+  display: inline-block; /* display as inline-block to adjust to content */
+  width: auto; /* set width to adjust to content */
+  max-width: 100%; /* set max-width to prevent exceeding viewport */
 }
-
+.column img {
+  display: block; /* set image as block element */
+  /* set image width to 100% of parent container */
+  height: auto; /* set image height to adjust proportionally */
+}
+*/ .column-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  position: absolute;
+  /*  margin-top: 40px;
+  margin-left: 200px;
+  padding-top: 15px;*/
+}
+.column-3 {
+  position: relative;
+  margin-right: 500px;
+}
+/* media queres */
+/* took me a little time on this as well*/
 .image-container {
   position: relative;
+  display: inline-block;
 }
 
 .image-title {
@@ -237,18 +252,18 @@ want to use it anymore*/
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.5);
   color: #fff;
-  font-size: 1.5rem;
-  padding: 0.5rem;
+  font-weight: bold;
+  padding: 5px;
+  box-sizing: border-box;
+  text-align: center;
 }
 
-.image-container:hover img {
-  opacity: 0.5;
-}
-
-.image-container:hover .image-title {
-  opacity: 1;
+.image-title::after {
+  content: attr(data-title);
+  display: block;
+  font-size: 18px;
 }
 @media (max-width: 780px) {
   .grid-1 {

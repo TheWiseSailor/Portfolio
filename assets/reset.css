@@ -1,0 +1,277 @@
+.grid-1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+/* BODY*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #101214;
+}
+/* made it to where I do not have to repeat
+myself with the same line of code, and made
+it to where all of the following's text are
+white. specifically speaking the h1, h2, and p
+*/
+
+h1,
+h2,
+p,
+body,
+.section-1 a:hover {
+  color: #fff;
+}
+/* I wanted the a section to be a different
+color so I took it out of the h1,h2, and p*/
+
+/* making an image class to where i can make the border radius of my profile picture a circle*/
+.img-1 {
+  border-radius: 100%;
+  box-shadow: 0 0 10px 10px;
+  background: linear-gradient(to right, #fff);
+  background-size: 1800% 100%;
+  animation: pulse 10s ease-in-out infinite;
+}
+a {
+  color: #7a7c80;
+  text-decoration: none;
+}
+/* the requirements of the read me required a nav bar with contents to which goes to the links provided*/
+/* NAV SECTION*/
+nav {
+  min-height: 40px;
+  background-color: #333;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+}
+.title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+/* section 1 */
+/* I had to spend a little time on this 
+to where I could make it show on the 
+left side of the page so that once 
+the page is being thinned out on 
+inspection or accessed on any 
+mobile device, it will configure 
+to that device without any ugly mess ups */
+/* BOTH SECTION 1/2 SECTIONS*/
+.section-1 {
+  padding-top: 500px;
+  padding-bottom: 200px;
+  text-align: center;
+}
+
+.section-1 p {
+  font-size: 1.1rem;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+.section-1 h2 {
+  font-size: 1.7rem;
+  margin-bottom: 10px;
+  /*testing out a light bar feature I saw on stack over flow*/
+
+  @keyframes pulse {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+}
+
+.section-1 a {
+  font-size: 1.5rem;
+  /* padding: 10px; */
+  padding-top: 29px;
+
+  /* found out about rgb lightings I looked on stack 
+over flow and found out about different color themes, 
+to which I wanted something that smoothly pulsated like 
+an rgb string like u hang up in your room. I wanted to 
+apply it to this because i thought it looked cool.
+I might comment it out later if I decide if I dont 
+want to use it anymore*/
+  height: 100px;
+  width: 100%;
+  background: linear-gradient(
+    to right,
+    #000,
+    #fff,
+    #000,
+    #fff,
+    #000,
+    #fff,
+    #000
+  );
+  background-size: 1800% 100%;
+  animation: pulse 50s ease-in-out infinite;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/* section 2 */
+
+.section-2 {
+  padding-top: 10vh;
+  width: 70%;
+}
+
+@keyframes pulse {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.section-2 h2 {
+  font-size: 1.7rem;
+  margin-bottom: 10px;
+}
+
+.section-2 p {
+  font-size: 1.1rem;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+.section-2 a {
+  display: block;
+  padding: 5px;
+  font-size: 1.2rem;
+  padding-left: 0;
+  width: 100px;
+}
+/* animations / utilities */
+.section-2 a:hover {
+  font-size: 1.3rem;
+}
+
+.section-1 a:hover {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.white:hover {
+  position: relative;
+  padding-left: 10px;
+}
+/*
+/*column section*/
+.column {
+  display: inline-block; /* display as inline-block to adjust to content */
+  width: auto; /* set width to adjust to content */
+  max-width: 100%; /* set max-width to prevent exceeding viewport */
+}
+.column img {
+  display: block; /* set image as block element */
+  /* set image width to 100% of parent container */
+  height: auto; /* set image height to adjust proportionally */
+}
+*/ .column-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  position: absolute;
+  margin-top: 450px;
+  margin-left: 200px;
+  padding-top: 15px;
+}
+/* media queres */
+/* took me a little time on this as well*/
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-weight: bold;
+  padding: 5px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.image-title::after {
+  content: attr(data-title);
+  display: block;
+  font-size: 18px;
+}
+@media (max-width: 780px) {
+  .grid-1 {
+    grid-template-columns: 1fr;
+  }
+  .section-1 {
+    padding: 0;
+    padding-top: 5rem;
+  }
+  .section-2 {
+    padding: 0;
+    padding-left: 1.5rem;
+    padding-top: 2rem;
+  }
+}
