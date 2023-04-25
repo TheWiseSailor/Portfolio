@@ -1,5 +1,5 @@
 # Portfolio Page
-Welcome to my portfolio page! This Project showcases my skills and talents to potential employers. I have deployed a couple of applications, which are live on the web and available for review. As a student of this bootcamp, I understand the importance of having several deployed projects as a minimum requirement to recieve an initial interview at many companies.
+Welcome to my portfolio page! This Project showcases my skills and talents to potential employers. I have deployed a couple of applications, which are live on the web and available for review. As a student of this bootcamp, I understand the importance of having several deployed projects as a minimum requirement to recieve an initial interview at many companies. I will say though, the page you are about to see is very minimalist.
 
 # User Story 
 As an employer I want to view a potential employee's deployed portfolio of work samples so that I can review samples of their work and assess whether they're a good candidate for an open position.
