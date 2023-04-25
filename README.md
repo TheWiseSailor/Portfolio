@@ -35,3 +35,6 @@ To use this portfolio page, simply load the page and navigate through the differ
 This project is open to contributions. If you would like to contribute, please fork the repository and create a pull request.
 
 Thank you for reviewing my portfolio page!
+![top port 1](https://user-images.githubusercontent.com/68026214/234404474-40657ecd-7993-41ec-86da-8047acb6d968.jpg)
+![middle port 2](https://user-images.githubusercontent.com/68026214/234404781-427ada7c-f334-4ad0-ae27-7b3c7b904925.jpg)
+![bottom port 3](https://user-images.githubusercontent.com/68026214/234404794-a8e2918c-fc94-4499-a9e1-132c438b7c74.jpg)
