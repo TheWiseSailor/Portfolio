@@ -27,14 +27,15 @@ THEN I am presented with a responsive layout that adapts to my viewport<br>
 **Contact Me**: <br>The "Contact Me" section includes a form for potential employers to contact me.
 
 # Technologies Used
-HTML
-CSS
+HTML/CSS
 # How to Use
 To use this portfolio page, simply load the page and navigate through the different sections using the links in the navigation. Clicking on an application image will take you to the deployed application. You can also use the form in the "Contact Me" section to get in touch.
 # Contributing
 This project is open to contributions. If you would like to contribute, please fork the repository and create a pull request.
 # Deployed website
 https://thewisesailor.github.io/Portfolio/
+# Repository
+https://github.com/TheWiseSailor/Portfolio
 # 
 
 
