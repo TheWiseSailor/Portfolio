@@ -169,6 +169,10 @@ want to use it anymore*/
     background-position: 0% 50%;
   }
 }
+
+.portfolio-figure {
+  padding-left: 20px;
+}
 .section-2 h2 {
   font-size: 1.7rem;
   margin-bottom: 10px;
